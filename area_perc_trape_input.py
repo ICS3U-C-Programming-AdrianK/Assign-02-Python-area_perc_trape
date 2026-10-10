@@ -7,23 +7,23 @@
 
 
 def main():
-    # set the unit of measurement 
+    # set the unit of measurement
     unit = input("Enter the unit of measurement(m , mm , cm) :")
 
     # get the top base value from the user
-    top_base = int(input(f"Enter top base value ({unit}) : " ))
+    top_base = int(input("Enter top base value ({unit}) : "))
 
     # get the bottom base value from user
-    bottom_base = int(input(f"Enter bottom base value ({unit}): "))
+    bottom_base = int(input("Enter bottom base value ({unit}): "))
 
     # get the right leg value from user
-    right_leg = int(input(f"Enter the right leg value ({unit}): "))
+    right_leg = int(input("Enter the right leg value ({unit}): "))
 
     # get the left leg value from user
-    left_leg = int(input(f"Enter the left leg value ({unit}): "))
+    left_leg = int(input("Enter the left leg value ({unit}): "))
 
     # get the height from user
-    height = int(input(f"Enter the height ({unit}): "))
+    height = int(input("Enter the height ({unit}): "))
 
     # calculate the area of the trapezium
     area = float(0.5 * (bottom_base + top_base) * height)
